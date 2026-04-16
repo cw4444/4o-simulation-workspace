@@ -1,23 +1,34 @@
 # 4o Simulation Workspace
 
+Live demo: [4o-simulation-workspace.vercel.app](https://4o-simulation-workspace.vercel.app/)
+
 A small playground for exploring the conversational warmth, pace, and tone people liked in 4o.
 
 This is a style experiment, not an attempt to rebuild the model.
 
-## What’s in here
+## Start Here
 
-- `4o-style-sheet.md` for the actual prompt/tone guidance
-- `4o-handbook.md` for the practical do-this version
-- `4o-short-prompt.md` for a paste-ready personalisation box version
-- `4o-prompt-presets.md` for a few quick variants
-- A small React app that previews the style and gives you a quick reference
+If you just want to try it:
 
-## Run it
+1. Open the live demo link above.
+2. Read the short prompt on the page.
+3. Paste any prompts you want to test into the handbook or the short prompt box.
+4. Copy the version you want and try it in your own tool.
+
+If you want to run it locally:
 
 ```bash
 npm install
 npm run dev
 ```
+
+## What’s in here
+
+- `4o-style-sheet.md` for the longer prompt/tone guidance
+- `4o-handbook.md` for the practical do-this version
+- `4o-short-prompt.md` for a paste-ready personalisation box version
+- `4o-prompt-presets.md` for a few quick variants
+- A small React app that previews the style and gives you a quick reference
 
 ## Why this exists
 
